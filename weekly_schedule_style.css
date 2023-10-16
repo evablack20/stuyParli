@@ -186,6 +186,7 @@ a.nav:hover,a.nav:active {
 	overflow-x:scroll;
 	padding-left:10px;
 	padding-right:10px;
+	animation: fadeInAnimation ease 5.0s;
 }
 
 .weekday {
