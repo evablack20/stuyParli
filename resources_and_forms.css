@@ -251,3 +251,16 @@ table td {
 	font-weight:200;
 }
 
+.flowlink {
+	background-color:black;
+	position:fixed;
+	bottom:4px;
+	width:100%;
+	text-align:center;
+	animation:animate 5s linear 2, fadeInAnimation ease 5s;
+}
+.flowlink>a{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight:200;
+	color:white;
+}
