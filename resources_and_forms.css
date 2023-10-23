@@ -145,7 +145,6 @@ a.nav:hover,a.nav:active {
 	margin-left:40px;
 	width:100%;
 	overflow-x:auto;
-	overflow-y:hidden;
 	white-space:nowrap;
 }
 .wrapper h2{

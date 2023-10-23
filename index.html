@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
     	<title> Parliamentary Debate </title>
 		<link rel="stylesheet" href="style.css" type="text/css">
@@ -22,8 +23,12 @@
 		<div class="cover">
 			<div class="title"><p id="title">Stuy Parli</p> </div>
 			<div class="subtitle"><p id="title">website under construction</p></div>
-			<img src ="flower-background.jpg" alt="flowers" width="110%">
 		</div>
+		<picture>
+		  <source media="(min-width:1000px)" srcset="flower-background.jpg">
+		  <source media="(min-width:325px)" srcset="mobileflowers.png">
+		  <img src="logo-placeholder.jpeg" alt="Flowers">
+		</picture>
 	</body>
 </html>
 
